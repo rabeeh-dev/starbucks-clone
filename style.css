@@ -1,0 +1,260 @@
+@font-face {
+  font-family: "SoDo Sans";
+  src: url("fonts/SoDoSans-Regular.ttf") format("truetype");
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SoDo Sans";
+  src: url("fonts/SoDoSans-SemiBold.ttf") format("truetype");
+  font-weight: 600; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SoDo Sans";
+  src: url("fonts/SoDoSans-Bold.ttf") format("truetype");
+  font-weight: 700; 
+  font-style: normal;
+}
+
+body {
+  font-family: "SoDo Sans", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* First half of header */
+
+.header{
+    width: 100%;
+    height: 11vh;
+    background-color: white;
+    display: flex;
+}
+.header-half{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: auto;
+}
+.header-half svg{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 46px;
+}
+.header-half ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-self: center;
+    justify-content: center;
+    margin-left: 40px;
+    font-family: SoDo Sans;
+    font-weight: 700;
+    font-size: 15px;
+}
+.header-half ul a{
+    text-decoration: none;
+    color: #023e2a;
+}
+
+.header-half ul a:hover{
+    color:#047751 ;
+}
+
+/* Second half of header */
+
+.header-second-half{
+    display: flex;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    justify-content: end;
+    align-items: center;
+    padding-right: 80px;
+}
+.loc-icon{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    margin-right:30px;
+    gap: 8px;
+}
+.loc-icon p{
+    margin-top: 3px;
+    font-size: 15px;
+    font-family: SoDo Sans;
+    font-weight: 600;
+}
+.header-second-half i{
+    font-size: 23px;
+}
+.header-buttons{
+    width: 230px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#bt1{
+    width: 100px;
+    height: 35px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+#bt2{
+    width: 120px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+/* Shop bar */
+.shop{
+    width: 100%;
+    height: 60px;
+    background-color: #023e2a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop h2{
+    color:rgb(225, 223, 223) ;
+    font-family: SoDo Sans;
+    font-weight: 600;
+    font-size: 20px;
+}
+.shop h2:hover{
+    color: #046b49;
+    transition-duration: 2;
+}
+/* section1 */
+.sec1{
+    width: 100%;
+    height: 420px;
+    background-color: blanchedalmond;
+    margin-top: 40px;
+    display: flex;
+}
+.img1{
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+}
+.img1 img{
+    width: 100%;
+    height: auto;
+}
+.text1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text1 h2{
+    font-family: SoDo Sans;
+    font-weight: 400;
+    font-size: x-large;
+}
+.text1 p{
+    font-family: SoDo Sans;
+    font-weight: 400;
+    font-size: large;
+}
+.text1 button{
+    width: 120px;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.text1 button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+.text1 button a:hover{
+    text-decoration: underline;
+}
+.paradiv{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.para{
+    width: 680px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: 15px;    
+}
+.links{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    margin-top: 10px;
+}
+.link1{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    margin-left: 30px;
+}
+.link1 ul{
+    color: black;
+    list-style: none;
+    font-size: medium;
+    font-size: 400;
+}
+.link1 ul li{
+    margin: 20px;
+}
+.link1 ul a{
+    color: black;
+    text-decoration: none;
+}
+.social-media{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.social-media a{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
+.social-media a:hover{
+    font-size: xx-large;
+    transition: 0.6s;
+}
+.contact{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
